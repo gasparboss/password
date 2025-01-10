@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelszó Generátor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jelszó Generátor</h1>
+        
+        <label for="passwordLength">Jelszó hossza:</label>
+        <input type="number" id="passwordLength" min="1" value="">
+        
+        <label for="numPasswords">Jelszavak száma:</label>
+        <input type="number" id="numPasswords" min="1" value="">
+        
+        <label for="numDigits">Számjegyek száma:</label>
+        <input type="number" id="numDigits" min="0" value="">
+        
+        <label for="numLowerCase">Kisbetűk száma:</label>
+        <input type="number" id="numLowerCase" min="0" value="">
+        
+        <label for="numUpperCase">Nagybetűk száma:</label>
+        <input type="number" id="numUpperCase" min="0" value="">
+        
+        <label for="numSpecial">Speciális karakterek száma:</label>
+        <input type="number" id="numSpecial" min="0" value="">
+        
+        <button id="generateBtn">Jelszavak generálása</button>
+        
+        <ul id="passwordList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
